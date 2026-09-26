@@ -1,0 +1,83 @@
+h1 {
+    color: deepskyblue;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    background: linear-gradient(to right, orange, red);
+}
+.profile-image {
+    opacity: 0.8;
+}
+p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family:Calibri, serif;
+    background-color: white;
+}
+h2 {
+    color: rgb(16, 208, 187);
+    font-weight: bold;
+}
+body {
+    color: darkslateblue;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-decoration: underline;
+}
+.btn {
+    font-weight: bold;
+}
+.primary {
+    color: #FF2400;
+}
+.secondary {
+    color: #FF2400;
+}
+input {
+    background-color:yellowgreen;
+}
+.red-text {
+    color: #FF2400;
+    text-transform: uppercase;
+}
+.green-text {
+    color: rgb(47, 255, 27, 0.6);
+}
+.yellow-text {
+    color:yellow;
+}
+.blue-text {
+    color:turquoise;
+}
+.purple-text {
+    color:rebeccapurple;
+}
+.brown-text {
+    color:saddlebrown;
+}
+.orange-p {
+    color:darkorange;
+}
+#main-header {
+    text-align: center;
+    background: radial-gradient(white, lightblue);
+}
+#about-table {
+    background: radial-gradient(white, lightblue);
+}
+.nav-link {
+    color: darkblue;
+    font-weight: bold;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-input {
+    color: blue;
+}
+.quote {
+    font-style: italic;
+}
