@@ -6,8 +6,33 @@ h1 {
     font-size: 36px;
     background: linear-gradient(to right, orange, red);
 }
+ul {
+    list-style-type:square;
+}
+ol {
+    list-style-type:upper-alpha;
+}
+.ordered {
+    list-style-type: upper-roman;
+}
 .profile-image {
     opacity: 0.8;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+}
+.profile-video {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.music {
+    padding: 20px;
+    border: 2px solid darkblue;
+    margin: 20px;
 }
 p {
     text-align: justify;
@@ -68,8 +93,26 @@ input {
 #about-table {
     background: radial-gradient(white, lightblue);
 }
-.nav-link {
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+a {
     color: darkblue;
+    text-decoration: none;
+}
+.nav-link {
     font-weight: bold;
 }
 .form-label {
